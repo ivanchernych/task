@@ -9,7 +9,7 @@ symbol = ';'
 print(f'адрес и SPN нужно вводит в одну строку через знак {symbol}')
 
 ss = ' '.join(sys.argv[1:]).split(symbol)
-toponym_to_find = " ".join(ss[0])
+toponym_to_find = ss[0]
 
 geocoder_api_server = "http://geocode-maps.yandex.ru/1.x/"
 
